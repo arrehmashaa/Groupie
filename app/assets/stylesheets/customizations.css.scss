@@ -1,5 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Economica:400italic,700italic);
+
+
+$font-family-sans-serif:           'Economica', sans-serif;
 $body-bg:                          #bdc3c7;
-$navbar-height:                    45px;
+$navbar-height:                    40px;
 $navbar-default-bg:                #2c3e50;
 $navbar-default-link-color:        #ecf0f1;
 $navbar-default-link-hover-color:  #f1c40f;
@@ -7,3 +11,11 @@ $navbar-default-brand-hover-color: #f1c40f;
 $jumbotron-bg:                     #ecf0f1;
 
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
